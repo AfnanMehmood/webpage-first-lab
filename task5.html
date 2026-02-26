@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>
+        JAVASCRIPT - 1. ESSENTIAL ARRAY METHODS
+    </title>
+ </head>
+<body>
+    <h1>Filtering Data with .filter()</h1>
+
+<script>
+    const users = [
+        { name: "Ghilman", age: 25 },
+        { name: "Bilal", age: 32 },
+        { name: "Jannat", age: 45 },
+        { name: "Abira", age: 28 }
+    ];
+    const oldUsers = users.filter(user => user.age > 30);
+    console.log(oldUsers);
+
+    const fruits = ["Apple", "Banana", "Cherry", "Date", "Kiwi"];
+    const fruitsWithmorethan4letters = fruits.filter(fruit => fruit.length > 4);
+    console.log(fruitsWithmorethan4letters);
+    </script>
+    </body>
+</html> 

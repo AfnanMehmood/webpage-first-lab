@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>
+        JAVASCRIPT - 1. ESSENTIAL ARRAY METHODS
+    </title>
+ </head>
+<body>
+    <h1>The Power Of .map()</h1>
+
+<script>
+    const products = ["Laptop", "Phone", "Tablet"];
+    const productListItems = products.map(product => `<li>${product}</li>`);
+
+    console.log(productListItems);
+
+    const numbers = [10, 20, 30, 40, 50];
+    const squaredNumbers = numbers.map(num => num * num);
+    console.log(squaredNumbers);
+    </script>
+    </body> 
+</html>

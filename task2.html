@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>
+        JAVASCRIPT - 1. Introduction to JavaScript
+    </title>
+ </head>
+<body>
+    <h1>Arrow Functions and Template Literals</h1>
+<script>
+    function calculateArea(length, width) {
+        return length * width;
+    }   
+    const calculateAreaArrow = (length, width) => length * width;
+    const gardenArea = calculateAreaArrow(10, 20);
+    const message = `The area of Afnan's garden is ${gardenArea} square meters.`;
+    console.log(message);
+
+    function greet(name) {
+        console.log(`Hello, ${name}! Welcome back to JavaScript.`);
+    }
+greet("Afnan");
+</script>
+</body>
+</html>

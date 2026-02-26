@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>
+        JAVASCRIPT - 1. Introduction to JavaScript
+    </title>
+ </head>
+<body>
+    <h1>Practical Destructuring and Spread Operator</h1>
+
+<script>
+    const afnanProfile={
+        name:"Afnan",
+        age: 20,
+        city: "Islamabad",
+    };
+    const {name, city} = afnanProfile;
+    console.log(name);
+    console.log(city);
+
+    const afnanFoods=["Pizza","Pasta"];
+    const allFoods=[...afnanFoods, "Sushi"];
+    console.log(afnanFoods);
+    console.log(allFoods);
+
+
+    const ahmedProfile={
+        id:"12345",
+        name: "Ahmed",
+        grades: "A+",
+    };
+    const{id,grades}=ahmedProfile;
+    console.log(id);
+    console.log(grades);
+
+    const ahmedFoods=["Burger","Fries"];
+    const allAhmedFoods=[...ahmedFoods, "Salad"]; 
+    console.log(ahmedFoods);
+    console.log(allAhmedFoods);
+</script>
+</body>
+</html>
